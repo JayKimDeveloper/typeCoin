@@ -1,0 +1,43 @@
+Arguments: 
+  /home/kim/.nvm/versions/node/v8.11.1/bin/node /usr/share/yarn/bin/yarn.js start
+
+PATH: 
+  /home/kim/bin:/home/kim/.local/bin:/home/kim/.nvm/versions/node/v8.11.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/app/KimDragon/product/11.2.0/dbhome_3/BIN:/mnt/c/app/KimDragon/virtual/product/12.2.0/dbhome_1/bin:/mnt/c/ProgramData/Oracle/Java/javapath_target_454085218:/mnt/c/Program Files (x86)/Intel/iCLS Client:/mnt/c/Program Files/Intel/iCLS Client:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Java/jdk1.8.0_131/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/IDM Computer Solutions/UltraEdit:/mnt/c/Program Files/nodejs:/mnt/c/Program Files (x86)/Yarn/bin:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/PuTTY:/mnt/c/Users/KimDragon/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/Bandizip:/mnt/c/Users/KimDragon/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/KimDragon/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/KimDragon/AppData/Roaming/npm:/mnt/c/Users/KimDragon/AppData/Local/Yarn/bin:/snap/bin
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  8.11.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /mnt/c/Users/KimDragon/Documents/Git/typeCoin/package.json: Unexpected token } in JSON at position 272
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1130:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:98:30)
+      at /usr/share/yarn/lib/cli.js:109:13
+      at <anonymous>
+
+npm manifest: 
+  {
+    "name": "typeCoin",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/kimkimhyun/typeCoin.git",
+    "author": "KimFlowering <kyhyun1999@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+      "start":"node index.js",
+      "prestart": "tsc"
+    },
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

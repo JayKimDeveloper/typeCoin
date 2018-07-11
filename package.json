@@ -1,0 +1,17 @@
+{
+  "name": "typeCoin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kimkimhyun/typeCoin.git",
+  "author": "KimFlowering <kyhyun1999@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "devDependencies": {
+    "tsc-watch": "^1.0.22"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1"
+  }
+}
